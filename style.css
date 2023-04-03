@@ -1,0 +1,48 @@
+body { 
+    background-color:#fbe6a6;
+    color:#7D000E;
+}
+
+#inputContainer{
+    position: absolute;
+    width: 15vw;
+    height: 2vw;
+    border: 0.2vw solid #7D000E;
+    background-color:#fbe6a6;
+}
+
+.container{
+    position: relative; top: 11.5vw; left: 40vw;
+    width: fit-content;
+}
+
+#addToDo {
+    position: relative; top: 0.3vw; left: 17vw;  
+    border-radius: 3vw;
+    
+    width: 3vw;
+    height: 2vw;
+    border: 0.2vw solid #7D000E;
+    background-color:#fbe6a6;
+    color:#7D000E;
+}
+
+#lines{
+    position: relative;  
+    z-index:-5;
+    width: 27vw;
+    height: 30vw;
+}
+
+#imgcontainer{
+    position: absolute; top: 14vw; left: 37vw;
+}
+
+#textcontainer{
+    position: relative; top: 10vw; right: 0vw; left: 0vw;
+}
+
+#title{
+    position: absolute; bottom: 0vw; left: 43vw;
+    font-size: 3vw; 
+}
