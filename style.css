@@ -1,6 +1,7 @@
 body { 
     background-color:#fbe6a6;
     color:#7D000E;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 #inputContainer{
@@ -9,6 +10,7 @@ body {
     height: 2vw;
     border: 0.2vw solid #7D000E;
     background-color:#fbe6a6;
+    color:#7D000E
 }
 
 .container{
@@ -18,11 +20,10 @@ body {
 
 #addToDo {
     position: relative; top: 0.3vw; left: 17vw;  
-    border-radius: 3vw;
     
     width: 3vw;
     height: 2vw;
-    border: 0.2vw solid #7D000E;
+    border:solid #7D000E;
     background-color:#fbe6a6;
     color:#7D000E;
 }
@@ -43,6 +44,6 @@ body {
 }
 
 #title{
-    position: absolute; bottom: 0vw; left: 43vw;
+    position: absolute; bottom: 0vw; left: 42vw;
     font-size: 3vw; 
 }
