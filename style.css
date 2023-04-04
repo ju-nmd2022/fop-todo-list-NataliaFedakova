@@ -1,16 +1,16 @@
 body { 
-    background-color:#fbe6a6;
-    color:#7D000E;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:blueviolet;
+    color:white;
+    font-family:monospace;
 }
 
 #inputContainer{
     position: absolute;
     width: 15vw;
     height: 2vw;
-    border: 0.2vw solid #7D000E;
-    background-color:#fbe6a6;
-    color:#7D000E
+    border: 0.2vw solid white;
+    background-color:white;
+    color:blueviolet;
 }
 
 .container{
@@ -23,20 +23,19 @@ body {
     
     width: 3vw;
     height: 2vw;
-    border:solid #7D000E;
-    background-color:#fbe6a6;
-    color:#7D000E;
+    border:solid white;
+    background-color:white;
+    color:black;
 }
 
-#lines{
+#gradient{
     position: relative;  
-    z-index:-5;
-    width: 27vw;
-    height: 30vw;
+    width: 15vw;
+    height: 15vw;
 }
 
 #imgcontainer{
-    position: absolute; top: 14vw; left: 37vw;
+    position: absolute; top: 4vw; left: 4vw;
 }
 
 #textcontainer{
@@ -46,4 +45,34 @@ body {
 #title{
     position: absolute; bottom: 0vw; left: 42vw;
     font-size: 3vw; 
+}
+
+#gradient1{
+    position: relative;  
+    width: 25vw;
+    height:35vw;
+}
+
+#imgcontainer1{
+    position: absolute; top: 13vw; left: 73vw;
+}
+
+#gradient2{
+    position: relative;  
+    width: 20vw;
+    height:20vw;
+}
+
+#imgcontainer2{
+    position: absolute; top: 25vw; left: 10vw;
+}
+
+#gradient3{
+    position: relative;  
+    width: 13vw;
+    height:13vw;
+}
+
+#imgcontainer3{
+    position: absolute; top: 5vw; left: 68vw;
 }

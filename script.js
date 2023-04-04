@@ -9,6 +9,7 @@ addToDoButton.addEventListener('click', function(){
     paragraph.innerText = inputField.value;
     toDoContainer.appendChild(paragraph);
     inputField.value = ""; //clears the input
+    saveData();
 
     const button = document.createElement("button");
     button.style = "background-color: #ffffff;";
@@ -22,18 +23,30 @@ addToDoButton.addEventListener('click', function(){
     const element = this.parentNode;
     toDoContainer.removeChild(paragraph);
     toDoContainer.removeChild(button);
+    saveData();
     });
 
     buttonDone.addEventListener("click", function doneElement(){
       paragraph.style.textDecoration = "line-through";
       const element = this.parentNode;
       toDoContainer.removeChild(buttonDone);
+      saveData();
       });
 
     paragraph.appendChild(button);
     paragraph.appendChild(buttonDone);
 
     toDoContainer.appendChild(paragraph);
+    saveData();
  })
+
+ function saveData(){
+  localStorage.setItem("data", toDoContainer.innerHTML);
+ }
    
-  
+ function showTask(){
+  toDoContainer.innerHTML = localStorage.getItem("data");
+ }
+
+ showTask();
+ 
