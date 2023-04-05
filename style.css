@@ -1,6 +1,6 @@
 body { 
-    background-color:blueviolet;
-    color:white;
+    background-color:white;
+    color:black;
     font-family:monospace;
 }
 
@@ -8,9 +8,9 @@ body {
     position: absolute;
     width: 15vw;
     height: 2vw;
-    border: 0.2vw solid white;
+    border: 0.2vw solid black;
     background-color:white;
-    color:blueviolet;
+    color:black;
 }
 
 .container{
@@ -23,15 +23,15 @@ body {
     
     width: 3vw;
     height: 2vw;
-    border:solid white;
+    border:solid black;
     background-color:white;
     color:black;
 }
 
 #gradient{
     position: relative;  
-    width: 15vw;
-    height: 15vw;
+    width: 20vw;
+    height: 20vw;
 }
 
 #imgcontainer{
@@ -49,12 +49,12 @@ body {
 
 #gradient1{
     position: relative;  
-    width: 25vw;
-    height:35vw;
+    width: 30vw;
+    height:36vw;
 }
 
 #imgcontainer1{
-    position: absolute; top: 13vw; left: 73vw;
+    position: absolute; top: 15vw; left: 65vw;
 }
 
 #gradient2{
@@ -64,15 +64,7 @@ body {
 }
 
 #imgcontainer2{
-    position: absolute; top: 25vw; left: 10vw;
+    position: absolute; top: 25vw; left: 15vw;
 }
 
-#gradient3{
-    position: relative;  
-    width: 13vw;
-    height:13vw;
-}
 
-#imgcontainer3{
-    position: absolute; top: 5vw; left: 68vw;
-}
