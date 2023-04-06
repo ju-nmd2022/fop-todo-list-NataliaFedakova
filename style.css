@@ -1,7 +1,7 @@
 body { 
     background-color:white;
     color:black;
-    font-family:monospace;
+    font-family:sans-serif;
 }
 
 #inputContainer{
@@ -28,16 +28,6 @@ body {
     color:black;
 }
 
-#gradient{
-    position: relative;  
-    width: 20vw;
-    height: 20vw;
-}
-
-#imgcontainer{
-    position: absolute; top: 4vw; left: 4vw;
-}
-
 #textcontainer{
     position: relative; top: 10vw; right: 0vw; left: 0vw;
 }
@@ -49,12 +39,12 @@ body {
 
 #gradient1{
     position: relative;  
-    width: 30vw;
-    height:36vw;
+    width: 20vw;
+    height:26vw;
 }
 
 #imgcontainer1{
-    position: absolute; top: 15vw; left: 65vw;
+    position: absolute; top: 22vw; left: 75vw;
 }
 
 #gradient2{
@@ -64,7 +54,7 @@ body {
 }
 
 #imgcontainer2{
-    position: absolute; top: 25vw; left: 15vw;
+    position: absolute; top: 0vw; left: 2vw;
 }
 
 
